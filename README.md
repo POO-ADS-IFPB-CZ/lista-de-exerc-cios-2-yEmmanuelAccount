@@ -16,9 +16,15 @@ Nesse código, existem _sets_ para todos os atributos da classe, mas há _gets_ 
 
 * Quais informações você considera relevantes para representar um livro em um sistema?
 
+Código, Título do Livro, Nome do Autor, Ano de Publicação, Editora, Gênero.
+
 * Por que podemos dizer que uma classe Livro seria uma abstração no seu código?
 
+Pode ser considerada uma abstração porque representa um conceito específico, centraliza as informações relevantes em um único lugar, além de que permite que informações podem ser ocultadas ou disponibilizada de acordo com sua relevância.
+
 * Liste ao menos 3 métodos que fariam sentido existir nessa classe.
+
+estaDisponivel, numeroCopias, reservarLivro, devolverLivro.
 
 # Questão 03
     3. Implemente uma classe Produto com os seguintes atributos privados: codigo (int), nome (String), preco (double), estoque (int). Inclua:
