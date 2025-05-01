@@ -7,9 +7,9 @@
 
 Usando _getters_ e _setters_, o desenvolvedor do código pode escolher quais informações deseja deixar passíveis de serem obtidas ou mudadas em uma classe, algo que não aconteceria se utilizasse a função _public_.
 
-* O exemplo de código está no arquivo [Reposta.java](./Questao01/Resposta01.java).
+* O exemplo de código está no arquivo [Reposta01.java](./Questao01/Resposta01.java).
 
-Nesse código, 
+Nesse código, existem _sets_ para todos os atributos da classe, mas há _gets_ de alguns dos atributos (Nome, ValorPedido, Endereço), para que informações muito pessoais não possam ser facilmente obtidas por pessoas não autorizadas.
 
 # Questão 02
     2. Considere que você está modelando um sistema de controle de biblioteca. Responda:

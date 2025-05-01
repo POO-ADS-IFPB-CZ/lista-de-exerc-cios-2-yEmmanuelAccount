@@ -7,7 +7,7 @@ public class Resposta01 {
     private String numeroCartao;
 
     // construtor da classe
-    public Resposta (String nome, String cpf, float valorPedido, String endereco, String numeroCartao) {
+    public Resposta01 (String nome, String cpf, float valorPedido, String endereco, String numeroCartao) {
         this.nome = nome;
         this.cpf = cpf;
         this.valorPedido = valorPedido;
@@ -15,26 +15,35 @@ public class Resposta01 {
         this.numeroCartao = numeroCartao;
     }
 
-    // administração da classe
-        // nome
-            public String getNome() {
-                return nome;
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
-            public void setNome (String nome) {
-                this.nome = nome;
-            }
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
 
-        // cpf
-            public String setCpf (String cpf) {
-                this.cpf = cpf;
-            }
+    public void setValorPedido(float valorPedido) {
+        this.valorPedido = valorPedido;
+    }
 
-        // valorPedido
-            public float getValorPedido() {
-                return valorPedido;
-            }
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
 
-            public void setValorPedido (float valorPedido) {
-                this.valorPedido = valorPedido;
-            }
+    public void setNumeroCartao(String numeroCartao) {
+        this.numeroCartao = numeroCartao;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public float getValorPedido() {
+        return valorPedido;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
 }
