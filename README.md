@@ -60,3 +60,5 @@ estaDisponivel, numeroCopias, reservarLivro, devolverLivro.
         4. Sair do programa
 
     4.5. O menu deve continuar sendo exibido até que o usuário escolha sair. Pode-se reutilizar o código feito em sala.
+
+* A questão está respondida na pasta [model](./model/) e no arquivo [Main](./Main.java).
