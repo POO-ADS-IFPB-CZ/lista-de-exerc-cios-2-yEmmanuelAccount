@@ -7,32 +7,34 @@
 
 Usando _getters_ e _setters_, o desenvolvedor do código pode escolher quais informações deseja deixar passíveis de serem obtidas ou mudadas em uma classe, algo que não aconteceria se utilizasse a função _public_.
 
-* O exemplo de código está no arquivo [Reposta01.java](./Questao01/Resposta01.java).
+* O exemplo de código está no arquivo [Reposta01.java](./Resposta01.java).
 
 Nesse código, existem _sets_ para todos os atributos da classe, mas há _gets_ de alguns dos atributos (Nome, ValorPedido, Endereço), para que informações muito pessoais não possam ser facilmente obtidas por pessoas não autorizadas.
 
 # Questão 02
     2. Considere que você está modelando um sistema de controle de biblioteca. Responda:
 
-* Quais informações você considera relevantes para representar um livro em um sistema?
+    a) Quais informações você considera relevantes para representar um livro em um sistema?
 
 Código, Título do Livro, Nome do Autor, Ano de Publicação, Editora, Gênero.
 
-* Por que podemos dizer que uma classe Livro seria uma abstração no seu código?
+    b) Por que podemos dizer que uma classe Livro seria uma abstração no seu código?
 
 Pode ser considerada uma abstração porque representa um conceito específico, centraliza as informações relevantes em um único lugar, além de que permite que informações podem ser ocultadas ou disponibilizada de acordo com sua relevância.
 
-* Liste ao menos 3 métodos que fariam sentido existir nessa classe.
+    c) Liste ao menos 3 métodos que fariam sentido existir nessa classe.
 
 estaDisponivel, numeroCopias, reservarLivro, devolverLivro.
 
 # Questão 03
     3. Implemente uma classe Produto com os seguintes atributos privados: codigo (int), nome (String), preco (double), estoque (int). Inclua:
 
-* Um construtor que receba os quatro parâmetros
-* Getters para todos os atributos
-* Um setter apenas para o preço, que não deve aceitar valores negativos
-* Um método exibirInfo() que imprime todas as informações do produto
+       1. Um construtor que receba os quatro parâmetros.
+       2. Getters para todos os atributos.
+       3. Um setter apenas para o preço, que não deve aceitar valores negativos.
+       4. Um método exibirInfo() que imprime todas as informações do produto.
+
+* A resolução da questão está no arquivo [resposta](./Produto.java).
 
 # Questão 04
     4.1. Crie uma classe chamada ContaCorrente com os seguintes atributos privados:
